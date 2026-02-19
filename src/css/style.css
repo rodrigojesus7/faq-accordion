@@ -190,6 +190,10 @@ body {
     cursor: pointer;
 }
 
+.card__questionSection__questionAndAnswerContainer__questionContainer__showButton:hover .card__questionSection__questionAndAnswerContainer__questionContainer__showSvgIcon path{
+    fill: var(--show-answer-icon-color-hover);
+}
+
 .card__questionSection__questionAndAnswerContainer__questionContainer__showButton:focus-visible .card__questionSection__questionAndAnswerContainer__questionContainer__showSvgIcon path {
     fill: var(--show-answer-icon-color-hover);
 }
@@ -207,6 +211,10 @@ body {
     border-radius: 100%;
 
     cursor: pointer;
+}
+
+.card__questionSection__questionAndAnswerContainer__questionContainer__hideButton:hover .card__questionSection__questionAndAnswerContainer__questionContainer__hideSvgIcon path{
+    fill: var(--hide-answer-icon-color-hover);
 }
 
 .card__questionSection__questionAndAnswerContainer__questionContainer__hideButton:focus-visible .card__questionSection__questionAndAnswerContainer__questionContainer__hideSvgIcon path {
