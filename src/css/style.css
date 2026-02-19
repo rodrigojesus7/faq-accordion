@@ -1,0 +1,38 @@
+:root{
+    --text-preset-1-font-size: 5.6rem;
+    --text-preset-1-font-weight: 700;
+    --text-preset-1-line-height: 6.6rem;
+    --text-preset-1-letter-spacing: 0;
+
+
+    --text-preset-2-font-size: 1.8rem;
+    --text-preset-2-font-weight: 600;
+    --text-preset-2-line-height: 2.1rem;
+    --text-preset-2-letter-spacing: 0;
+
+    --text-preset-3-font-size: 1.6rem;
+    --text-preset-3-font-weight: 400;
+    --text-preset-3-line-height: 2.4rem;
+    --text-preset-3-letter-spacing: 0;
+
+
+
+    --background-color: #F8EEFF;
+    
+    --card-background-color: #FFFFFF;
+    --card-shadow-color: #5000761A
+
+    --logo-icon-color: #AD28EB;
+    --logo-color: #301534;
+
+    --question-color: #301534;
+    --question-color-hover: #ad28eb;
+    --answer-color: #8B6990;
+
+    --show-answer-icon-color: #AD28EB;
+    --hide-answer-icon-color: #301534;
+
+    --separation-line-color: #F8EEFF;
+}
+
+
