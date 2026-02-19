@@ -63,29 +63,15 @@ body {
 
     min-height: 100dvh;
 
+    background: url('../images/background-pattern-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+
     background-color: var(--background-color);
 
     font-family: 'Work Sans', sans-serif;
 }
-
-.backgroundImage {
-    top: 0;
-
-    position: absolute;
-    z-index: -1;
-
-    height: 23.2rem;
-    width: 100%;
-
-    background: url('../images/background-pattern-mobile.svg');
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-}
-
-
-
-
 
 .card {
     display: flex;
