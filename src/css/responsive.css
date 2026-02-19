@@ -1,0 +1,50 @@
+@media (min-width: 48rem) {
+
+    body {
+        background: url('../images/background-pattern-tablet.svg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain
+    }
+
+
+    .card {
+        max-width: 56.5rem;
+
+        border-radius: 1.6rem;
+
+        padding: 4rem;
+
+        gap: 3.2rem;
+    }
+
+    .card__header__svgIcon {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .card__header__title {
+        font-size: var(--text-preset-1-font-size);
+        font-weight: var(--text-preset-1-font-weight);
+        line-height: var(--text-preset-1-line-height);
+        letter-spacing: var(--text-preset-1-letter-spacing);
+    }
+
+    .card__questionSection__questionAndAnswerContainer__questionContainer {
+        gap: 0.5rem;
+    }
+
+    .card__questionSection__questionAndAnswerContainer__questionContainer__question {
+        font-size: var(--text-preset-2-font-size);
+        font-weight: var(--text-preset-2-font-weight);
+        line-height: var(--text-preset-2-line-height);
+        letter-spacing: var(--text-preset-2-letter-spacing);
+    }
+
+    .card__questionSection__questionAndAnswerContainer__answer {
+        font-size: var(--text-preset-3-font-size);
+        font-weight: var(--text-preset-3-font-weight);
+        line-height: var(--text-preset-3-line-height);
+        letter-spacing: var(--text-preset-3-letter-spacing);
+    }
+}
