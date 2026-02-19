@@ -4,7 +4,9 @@
         background: url('../images/background-pattern-tablet.svg');
         background-repeat: no-repeat;
         background-position: top;
-        background-size: contain
+        background-size: contain;
+
+        background-color: var(--background-color);
     }
 
 
@@ -46,5 +48,18 @@
         font-weight: var(--text-preset-3-font-weight);
         line-height: var(--text-preset-3-line-height);
         letter-spacing: var(--text-preset-3-letter-spacing);
+    }
+}
+
+
+
+@media(min-width: 64rem){
+    body {
+        background: url('../images/background-pattern-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+
+        background-color: var(--background-color);
     }
 }
