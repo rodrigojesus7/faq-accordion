@@ -177,6 +177,8 @@ body {
     line-height: var(--mobile-text-preset-2-line-height);
     letter-spacing: var(--mobile-text-preset-2-letter-spacing);
 
+    text-align: left;
+
     color: var(--question-color);
 }
 
