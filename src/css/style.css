@@ -157,6 +157,10 @@ body {
     cursor: pointer;
 
     outline: none;
+
+    background: none;
+
+    border: none;
 }
 
 .card__questionSection__questionAndAnswerContainer__questionContainer:focus-visible .card__questionSection__questionAndAnswerContainer__questionContainer__question{

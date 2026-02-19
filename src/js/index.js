@@ -5,20 +5,15 @@ const showSvgIcon = document.querySelectorAll('.card__questionSection__questionA
 const hideSvgIcon = document.querySelectorAll('.card__questionSection__questionAndAnswerContainer__questionContainer__hideSvgIcon')
 
 function showOrHideAnswers(index) {
-    if (answers[index].classList.contains('hidden')) {
 
-        answers[index].classList.remove('hidden')
+    const isHidden = answers[index].classList.contains('hidden')
 
-        showSvgIcon[index].classList.add('hidden')
-        hideSvgIcon[index].classList.remove('hidden')
+    answers[index].classList.toggle('hidden')
 
-    } else {
+    showSvgIcon[index].classList.toggle('hidden')
+    hideSvgIcon[index].classList.toggle('hidden')
 
-        answers[index].classList.add('hidden')
-
-        showSvgIcon[index].classList.remove('hidden')
-        hideSvgIcon[index].classList.add('hidden')
-    }
+    questions[index].setAttribute('aria-expanded', String(isHidden))
 }
 
 questions.forEach((question, index) => {
@@ -30,20 +25,3 @@ questions.forEach((question, index) => {
     })
 
 })
-
-questions.forEach((question, index) => {
-
-    question.addEventListener('keydown', function (e) {
-
-        if (e.key === 'Enter' || e.key === ' '){
-            
-            e.preventDefault()
-
-            showOrHideAnswers(index)
-
-        }
-    })
-
-})
-
-
